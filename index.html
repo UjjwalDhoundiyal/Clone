@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Yqyo3JrC39pBOy0xU6m8U6Y/YhBObl5UShQoNYJz9D/2zwUNnE/9oz74WTxNlBp75wYIdLZnG61Z/kd9q5rKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+
+    <style>
+        
+        .carousel-caption h1, .carousel-caption p {
+        float: left;
+        text-align: left;
+        margin-right: 20px;
+    }
+    </style>
+</head>
+<body>
+
+<div style="background-color:#e34228;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <p style="color: white;" class="p-3 m-1 text-center">Study in India Scholarship test is on 28/04/2023 at 4pm IST</p>
+            </div>
+            <div class="col-sm text-center">
+                <ul class="list-inline p-2 m-1">
+                    <li class="list-inline-item"><button class="btn" style="background-color: #101b57; color: white;">Student Login</button></li>
+                    <!-- <a href="" class="btn btn-primary" style="background-color: #101b57;">Student Login</a> -->
+                    <li class="list-inline-item"><button class="btn" style="background-color: #101b57; color: white;">Employee login</button></li>
+                    <li class="list-inline-item"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                      </svg></a></li>
+                    <li class="list-inline-item"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg><a></li>
+                    <li class="list-inline-item"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Nav bAR -->
+<div class="container">
+<nav class="navbar navbar-expand-lg text-center" style="background-color: white; font-size: 18px; font-weight: bold;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #111d5e; font-weight: bold;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #111d5e; font-weight: bold;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #111d5e; font-weight: bold;">Why India</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #111d5e; font-weight: bold;">Scholarship</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #111d5e; font-weight: bold;">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #111d5e; font-weight: bold;">Visa Regulation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<br>
+
+<!-- Carosal -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://picsum.photos/1200/400?random=1" class="d-block w-100" alt="Slide 1" height="400px">
+            <div class="carousel-caption text-center">
+                <h1 style="float: left;">Get Partial Scholarship Studying In India</h1>
+                <p style="float: left;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/400?random=2" class="d-block w-100" alt="Slide 2" height="400px">
+            <div class="carousel-caption text-center">
+                <h1 style="float: left;">Get Best quality education</h1>
+                <h1 style="float: left;">A Rated University</h1>
+                <p style="float: left;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://picsum.photos/1200/400?random=3" class="d-block w-100" alt="Slide 3" height="400px">
+            <div class="carousel-caption text-center">
+                <h1 style="float: left;">Get Free Flight Ticket</h1>
+                <h1 style="float: left;">From Global Arcus</h1>
+                <p style="float: left;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Required JavaScript libraries -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script>
+<div class="text-center" style="background-color: #f0f6ff;">
+    <h2>Global Arcus Study in India Scholarship Exam</h2>
+    <p><a href="">Know More</a> About Scholarship Test</p>
+    <br><br>
+</div>
+
+<br><br><br>
+
+
+
+<!-- Youtube and about -->
+<section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="align-items-center">
+            <h3>About Global Arcus</h3>
+
+            <h4>Global Arcus, renowned as the biggest academic consultancy in India, provides free counselling and scholarships to foreign students yearning to pursue full-time academic education in India. Our scholarships are extended to over 100 universities. We provide support at every stage of the process, from accepting enrolment to the hassle-free arrival of students. Dream to attend a top university in India, our pledge–0 <strong>Consider it done!!!</strong></h4>
+
+            <ul style="column-count: 2; column-gap: 30px;">
+                <li>A Rated Universities</li>
+                <li>Partial Scholarship</li>
+                <li>Free Flight Tickets</li>
+                <li>Monthly Allowance</li>
+            </ul>
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>12<span style="color:#e34228;">+</span></h1>
+                    <p>Year of Experience</p>
+                </div>
+                <div class="col-sm-4">
+                    <h1>10K<span style="color:#e34228;">+</span></h1>
+                    <p>International Students</p>
+                </div>
+                <div class="col-sm-4">
+                    <h1>40<span style="color:#e34228;">+</span></h1>
+                    <p>Student Nationalities</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 float-right">
+          <iframe width=100%; height=100% src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        </div>
+      </div>
+      <button class="btn p-2" style="background-color: #e34228; color: whitesmoke; width: 200px;">Know More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg></button>
+    </div>
+    
+  </section>
+    
+  <br><br><br><br><br>
+<!-- 3 Rows -->
+<section style="background-color: #f0f6ff;">
+    <div  class="text-center">
+    <h2>Study from your own Country through Online Mode</h2>
+        <p><a href="">Know More</a> About Online Education</p>
+        
+    </div>
+
+<hr class="dotted">
+<br><br><br>
+
+<div class="container text-center">
+<h2 style="color:#111d5e;">Students' Services</h2>
+<p>Comprehensive academic assistance to students like counselling, benefitting scholarship, assistance in visa, effortless money transfer and arrival at university.</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 style="margin-bottom: 150px;">Q1</h1>
+            <h3><a href="">Study Visa For India</a></h3>
+            <p>We are helping students to get multiple entries study visa to India with coordination of Indian Embassy in African and SAARC nations. Visa process is now online and hassle free.</p>
+            <p><a href="">Read More</a></p>
+        </div>
+          
+  
+      <div class="col-sm-4">
+        <h1 style="margin-bottom: 150px;">Q2</h1>
+        <h3><a href="#">Career Counselling to Students</a></h3>
+        <p>Global Arcus has started counselling A level students in their own schools to provide better career counselling and higher study opportunities in India.</p>
+        <p><a href="#">Read More</a></p>
+      </div>
+  
+      <div class="col-sm-4">
+        <h1 style="margin-bottom: 150px;" >Q3</h1>
+        <h3><a href="#">Scholarship For Students</a></h3>
+        <p>Scholarship on tuition fees and/or accommodation in university is provided by Global Arcus to insure accessibility of quality education for all.</p>
+        <p><a href="#">Read More</a></p>
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+
+  <hr class="dotted">
+
+<div class="text-center">
+    <h3>Getting Study Visa to India is so simple now</h3>
+    <p><a href="">Know More </a>About Visa Application</p>
+</div>
+</section>
+<br><br><br><br>
+
+<!-- 2 Rows -->
+<section>
+    <div class="container">
+        <div class="text-center">
+        <h1>Arcus Care</h1>
+        <p>Global Arcus safeguards the upliftment of underprivileged, entrust women empowerment and elevation of every section of our society.</p>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" style="background-image: url(images/img12.jpg); background-size: cover; width: 50%; height:80vh; background-repeat: no-repeat; background-position: center;">
+                    <div class="bottom-container" style="background-color: white; padding: 10px;">
+                        <h3>Startup-Grow your business</h3>
+                        <p>Global Arcus supports and encourages fellow African brothers, the budding entrepreneurs, with resources and supplies for their alleviation.</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" style="background-image: url(images/img13.jpg); background-size: cover; height: 80vh; width: 50%; background-position: center;">
+                    <div class="bottom-container" style="background-color: whitesmoke; padding: 20px;">
+                    <h3>Global Arcus Monthly Allowance</h3>
+                    <p>Global Arcus will provide a Monthly Allowance to successful candidates. Allowances will be paid only after passing scholarship test.</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+</section>
+
+<br><br><br><br><br><br><br><br>
+
+<!-- Scrollable Gallery -->
+
+<section style="background-color: #f0f6ff;">
+    <br>
+    <div class="text-center">
+        <h2>Paying Fees to university is hassle free from your country</h2>
+        <p><a href="">Know More</a> About Payment Methods</p>
+    </div>
+
+    <br><br>
+
+    <hr class="dotted">
+    <br><br><br>
+
+    <h1 class="text-center">Arcus Gallery</h1>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/gal1.jpeg" class="d-block w-100" alt="Image 1">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/gal2.jpeg" class="d-block w-100" alt="Image 2">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/gal3.jpeg" class="d-block w-100" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/gal4.jpeg" class="d-block w-100" alt="Image 4">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/gal5.jpeg" class="d-block w-100" alt="Image 5">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/gal6.jpeg" class="d-block w-100" alt="Image 6">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="images/gal7.jpeg" class="d-block w-100" alt="Image 7">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/gal8.jpeg" class="d-block w-100" alt="Image 8">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/gal9.jpeg" class="d-block w-100" alt="Image 9">
+                    </div>
+                </div>
+            </div>
+            
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    
+      
+<br><br><hr class="dotted">    
+
+    <div class="text-center">
+        <h3>Enjoy travelling from your country to India</h3>
+        <p><a href="">Know More</a> About Free Flight Offer</p>
+    </div>
+    <br><br>
+</section>
+
+<br><br><br><br>
+
+
+<section>
+    <h2 class="text-center">What our students says</h2>
+
+    <div class="carousel" id="carousel2">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/p1.jpeg" style="width: 50%; height: auto;" class="d-block w-100" alt="Image 1">
+        </div>
+        <div class="col-md-6">
+          <h3>Heading 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc lacus, tristique eu hendrerit sed, porta quis est. Morbi eget ipsum vitae purus convallis dapibus. Duis lacinia arcu eu nisi vulputate convallis. </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/p2.jpeg" class="d-block w-100" alt="Image 2">
+        </div>
+        <div class="col-md-6">
+          <h3>Heading 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc lacus, tristique eu hendrerit sed, porta quis est. Morbi eget ipsum vitae purus convallis dapibus. Duis lacinia arcu eu nisi vulputate convallis. </p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/p3.jpeg" class="d-block w-100" alt="Image 3">
+        </div>
+        <div class="col-md-6">
+          <h3>Heading 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nunc lacus, tristique eu hendrerit sed, porta quis est. Morbi eget ipsum vitae purus convallis dapibus. Duis lacinia arcu eu nisi vulputate convallis. </p>
+        </div>
+      </div>
+    </div>
+    <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+        <!-- carousel content here -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+          <!-- control icon here -->
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+          <!-- control icon here -->
+        </button>
+      </div>
+  </div>
+  
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section style="background-color: #101b57;">
+    <footer class="bg-light text-center text-lg-start" style="background-color: #202020;">
+        <!-- Grid container -->
+        <div class="container p-4" >
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Main Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark">About Us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Scholarship Exam</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Online Education</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Medical Program</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Student Login</a>
+                  </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Important Links</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-dark">Why India</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">About Scholarship</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Courses</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">Visa Regulation</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">University Login</a>
+                  </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Contact</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                  </svg>Images Tower, B-27, Sector-132, Noida, Uttar Pradesh, India-201301</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>support@globalarcus.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                  </svg>+(91)9821203456</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="p-3" style="background-color: #163152;">
+            <div class="row">
+                <div class="col-lg-6 p-2 text-light">
+                    <p class="text-center">Follow us on: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                      </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg></p>
+                </div>
+                <div class="col-lg-6 p-2 text-light">
+                    © Global Arcus. Maintained by Vivacoders
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</section>
+</body>
+</html>
